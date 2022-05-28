@@ -19,7 +19,7 @@ const SignIn = () => {
       navigate("/account");
     } catch (error) {
       setError(error.message);
-      console.log(error);
+      console.log(error.message);
     }
   };
 
